@@ -1,0 +1,36 @@
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore arquivos de compilação e cache de pré-processadores
+.sass-cache/
+node_modules/
+*.css.map
+*.less.map
+
+# Ignore pastas de compilação temporárias
+dist/
+build/
+
+# Ignore arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore arquivos de saída de testes ou processos temporários
+*.tmp
+*.bak
+*.swp
+
+# Ignore arquivos do sistema operacional
+*.lock
+*.zip
+*.tar.gz
+
+# Ignore arquivos de dependências do Node.js (caso tenha usado)
+package-lock.json
+yarn.lock
